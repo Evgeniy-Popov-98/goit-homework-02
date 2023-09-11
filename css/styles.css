@@ -1,12 +1,13 @@
 body {
   font-family: Roboto, sans-serif;
-  color: #ffffff;
+  color: #434455;
 }
 
 .logo {
   font-family: Raleway;
   font-size: 18px;
   line-height: 1.166;
+  color: #2e2f42;
 }
 
 .part-logo {
@@ -18,7 +19,96 @@ body {
   line-height: 1.5;
 }
 
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 .contact {
   font-weight: 400;
   line-height: 1.5;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+.title {
+  font-size: 56px;
+  text-align: center;
+  line-height: 1.071;
+}
+
+.button {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.first-section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.first-section p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-team {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.111;
+  color: #2e2f42;
+}
+
+.second-section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.second-section p {
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.section-portfolio {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.111;
+  color: #2e2f42;
+}
+
+.third-section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.third-section p {
+  font-weight: 400;
+  line-height: 1.5;
+}
+.footer-link {
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.166;
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
